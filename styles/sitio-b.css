@@ -1,0 +1,6 @@
+:root {
+  /*defino la variable*/
+  --rojo: #609f36;
+  --texto-blanco: #817c7c;
+  /*2em => 2 * 16px = 32px;*/
+}

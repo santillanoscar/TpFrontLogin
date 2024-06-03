@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/registrarse.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"/>
+
+</head>
+
+<header class="header">
+    <div class="header_logo">
+      <a href="../index.html" class="header_logo_link">
+        <i class="fa-solid fa-film"></i>
+        Cac-movies
+      </a>
+    </div>
+    
+  </header>
+
+<body class="body">
+    <main class="main">
+    <div class="formulario">
+        <form action="post" class="formulario_Pos">
+            
+                    <label for="registro" id="registro">Registro</label>
+                    <input type="text" placeholder="Nombre"/>
+                    <input type="text" placeholder="Apellido"/>
+                    <input type="email" placeholder="Email"/>
+                    <input type="password" placeholder="Contraseña"/>
+                    <input type="date" placeholder="Fecha"/>
+                    <select name="pais" >
+                        <option value="">Pais</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Bolivia">Bolivia</option>
+                        <option value="Brasil">Brasil</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Colombia">Colombia</option>
+                        <option value="Ecuador">Ecuador</option>
+                    </select>
+                    <span class="terminos">
+                        <input type="checkbox" name="acepto" value="acepto" id="terminos"/>
+                        <label for="acepto" id="acepto">Acepto terminos y condiciones</label>
+                    </span>
+                    
+
+                    <button class="btn">Registrarse</button>
+                    <a href="#" id="ayuda">Necesitas ayuda ?</a>
+                    
+                    
+                
+        </form>
+    </div>
+
+
+    </main>
+
+    <div class="contenedor">
+    <div id="personajes"></div>
+</div>
+
+   <!-- <script src="../Js/scripRickMorty.js"></script>-->
+
+
+   <script
+   src="https://kit.fontawesome.com/181725805d.js"
+   crossorigin="anonymous"
+ ></script>
+ <script>
+    // Mostrar el formulario después de 5 segundos
+    setTimeout(function() {
+        document.querySelector('.formulario').style.display = 'block';
+    }, 1000);
+</script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Login</title>
+
+    <link rel="stylesheet" href="../styles/login.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet"/>
+
+    
+</head>
+
+<header class="header">
+    <div class="header_logo">
+      <a href="../index.html" class="header_logo_link">
+        <i class="fa-solid fa-film"></i>
+        Cac-movies
+      </a>
+    </div>
+    
+</header> 
+
+<body class="body">
+    <section class="formulario">
+    <form class="formulario-login">
+        <label id="iniciar-sesion" >Iniciar Sesion</label>
+
+        <input id="username" type="email"  name="usuario" placeholder="Email">
+        <input id="password" type="password"  name="password" placeholder="Password">
+      
+        <button id="button" class="button" type="submit" onclick="chequearPass()">Iniciar sesión</button>
+        <a href="../html/registrarse.html" id="ayuda">Registrarse</a>
+    </form>
+</section>
+
+    <script
+    src="https://kit.fontawesome.com/181725805d.js"
+    crossorigin="anonymous"
+  ></script>
+
+  <script src="../Js/login.js"></script>
+
+</body>
+</html>
