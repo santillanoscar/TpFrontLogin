@@ -1,0 +1,85 @@
+@import url(./sitio-a.css);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header_logo{
+    padding: 3vh;
+}
+
+.header_logo_link{
+    
+    color: var(--texto-blanco);
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.body {
+    background-image: linear-gradient(to right top, #0000008a, #0000008a),
+        url(../imgs/registrarse.jpg);
+    background-size: 100vw;
+    background-position: center;
+    min-height: 400px;
+    color: var(--texto-blanco)
+    
+  }
+
+  .formulario{
+    
+    animation: mostrarFormulario 1s ease-in-out forwards; 
+    margin: 0 auto;
+    background-color: rgb(42, 42, 42);
+    height: 80vh;
+    width: 25vw;
+    border-radius: 15px;
+    padding: 5vh;
+    align-content: center;
+        
+  }
+
+  @keyframes mostrarFormulario {
+    from { opacity: 0.5; } /* Empezar con opacidad 0 (invisible) */
+    to { opacity: 1; } /* Terminar con opacidad 1 (visible) */
+}
+
+
+  .formulario-login{
+  
+    display: flex;
+    flex-direction: column;
+       
+    }
+    
+#iniciar-sesion{
+    font-size: 2.5rem;
+    margin-bottom: 2vh;
+}
+
+.formulario-login input{
+    height: 5vh;
+    margin-bottom: 2vh;
+    border-radius: 25px;
+    background-color: rgb(67, 65, 65);
+    font-size: 1.2rem;
+    border: solid 2px var(--rojo);
+    padding-left: 1vw;
+    }
+
+.button {
+    padding: 2vh;
+    border-radius: 10px;
+    background-color: var(--rojo);
+    color: var(--texto-blanco);
+    font-size: 1.2rem;
+    }
+
+#ayuda{
+    padding: 1vh;
+    font-size: 1.2rem;
+    color: rgb(95, 97, 95);
+    text-decoration: none;
+        
+}
+
